@@ -1,4 +1,4 @@
-@import '../../node_modules/modern-normalize/modern-normalize.css';
+@import "../../../node_modules/modern-normalize/modern-normalize.css";
 
 ul {
   list-style: none;
@@ -24,6 +24,11 @@ img {
   display: block;
   width: 100%;
 }
+button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
 input {
   outline: none;
 }
@@ -41,7 +46,4 @@ optgroup {
 option {
   margin: 0;
   padding: 0;
-  &:focus {
-    background-color: #fff;
-  }
 }
